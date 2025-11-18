@@ -14,14 +14,6 @@ import LoginPage from './Screens/LoginPage';
 const Stack = createNativeStackNavigator();
 
 function App() {
-  return (
-    <SafeAreaProvider>
-      <NavigationContainer>
-        <Stack.Navigator
-          initialRouteName="SignupOptions"
-          screenOptions={{
-            headerShown: false,
-          }}
         >
           <Stack.Screen name="SignupOptions" component={SignupOptions} />
           <Stack.Screen name="SignupForReader" component={SignupForReader} />
