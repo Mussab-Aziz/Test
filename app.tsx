@@ -13,17 +13,7 @@ import LoginPage from './Screens/LoginPage';
 // Create stack navigator
 const Stack = createNativeStackNavigator();
 
-function App() {
-        >
-          <Stack.Screen name="SignupOptions" component={SignupOptions} />
-          <Stack.Screen name="SignupForReader" component={SignupForReader} />
-          <Stack.Screen name="SignupForAuthor" component={SignupForAuthor} />
-          <Stack.Screen name="GenrePreferences" component={GenrePreferences} />
-          <Stack.Screen name="LoginPage" component={LoginPage} />
-        </Stack.Navigator>
-      </NavigationContainer>
-    </SafeAreaProvider>
-  );
+
 }
 
 export default App;
